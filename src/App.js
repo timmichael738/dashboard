@@ -11,7 +11,7 @@ function App() {
   };
   return (
 <div className="flex bg-gray-50">
-  <div className="flex">
+  <div className="flex w-full">
     <SideBar open={open} style={{ flexBasis: '300px' }} />
     <div className="flex-1">
       <NavBar open={open} handleClick={handleToggle} />
