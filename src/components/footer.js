@@ -10,7 +10,7 @@ const getFullYear = new Date().getFullYear();
             {`© ${getFullYear}`}
             <span className="hidden ltr:float-right rtl:float-left md:inline-block">Crafted with
                 <Icons.loveEmoji />
-                by SRBThemes</span>
+                by TechFlow</span>
         </footer>
     )
 }
